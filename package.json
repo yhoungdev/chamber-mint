@@ -12,6 +12,7 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
     "@react-native-async-storage/async-storage": "^2.0.0",
     "@react-navigation/bottom-tabs": "^6.5.16",
     "@react-navigation/native": "^6.1.14",
