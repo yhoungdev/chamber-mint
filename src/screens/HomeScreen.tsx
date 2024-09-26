@@ -12,7 +12,7 @@ export function HomeScreen() {
 
   return (
     <View style={styles.screenContainer}>
-      <Text
+      {/* <Text
         style={{ fontWeight: "bold", marginBottom: 12 }}
         variant="displaySmall"
       >
@@ -22,21 +22,14 @@ export function HomeScreen() {
         <AccountDetailFeature />
       ) : (
         <>
-          <Section
-            title="Solana SDKs"
-            description="Configured with Solana SDKs like Mobile Wallet Adapter and web3.js."
-          />
-          <Section
-            title="UI Kit and Navigation"
-            description="Utilizes React Native Paper components and the React Native Navigation library."
-          />
-          <Section
-            title="Get started!"
-            description="Connect or Sign in with Solana (SIWS) to link your wallet account."
-          />
+        
+     
+      
           <SignInFeature />
         </>
-      )}
+      )} */}
+
+      
     </View>
   );
 }

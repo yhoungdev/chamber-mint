@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.chamber.mint",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "765dcdc5-df02-4b57-8ef3-02f933f800c4"
+      }
     }
   }
 }
