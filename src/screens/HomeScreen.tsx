@@ -6,6 +6,7 @@ import { Section } from "../Section";
 import { useAuthorization } from "../utils/useAuthorization";
 import { AccountDetailFeature } from "../components/account/account-detail-feature";
 import { SignInFeature } from "../components/sign-in/sign-in-feature";
+import CameraScreen from "../components/misc/getCameraAndLocation";
 
 export function HomeScreen() {
   const { selectedAccount } = useAuthorization();
@@ -29,7 +30,7 @@ export function HomeScreen() {
         </>
       )} */}
 
-      
+      <CameraScreen/>
     </View>
   );
 }
